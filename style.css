@@ -1,0 +1,36 @@
+body{
+    background: url(https://i.pinimg.com/originals/b2/fa/11/b2fa11b21482f3cb7b3b5bdbe35d7751.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.heading h1{
+    position: absolute;
+    top: 40%;
+    left:40%;
+    text-shadow: var(--color-shadow);
+    font-size:6.2em;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+    backdrop-filter: blur(16px);
+}
+.countdown {
+    position: absolute;
+    top: 20%;
+    left:15%;
+    font-size: 4em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--color-glass);
+    box-shadow:var(--color-shadow);
+    padding:8px 30px;
+    color: rgb(26, 26, 164);
+    
+}
+
+h1:hover{
+    color: orange;
+}
